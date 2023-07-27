@@ -1,0 +1,12 @@
+.items{
+  border-bottom: #333 1px solid;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.comments{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.comments>div{border:  1px solid black;}
